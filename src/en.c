@@ -15,3 +15,13 @@ int load(char text[20][40]){
 	fclose(fp);
 	return 1;
 }
+int check(char text[20][40],int n,char texts[40],int d){
+	for(int i = 0; i < d+1; i++){
+		if(text[n][i] != texts[i+1]){
+			printf("Invalid word");
+			return 0;
+		}
+	}
+	printf("Valid word!Good Work!");
+	return 1;
+}

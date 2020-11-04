@@ -4,8 +4,7 @@ OBJ      = build/src/en.o build/src/main.o
 LINKOBJ  = build/src/en.o build/src/main.o 
 FLAG = -Wall -Werror
 all : bin/eng
-
-test: bin/test
+test : bin/test
 
 clean: 
 	rm -rf $(BIN) build/src/*.o  

@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: all clean test
 
 OBJ      = build/src/en.o build/src/main.o 
 LINKOBJ  = build/src/en.o build/src/main.o 

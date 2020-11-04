@@ -32,7 +32,8 @@ int main() {
 			printf(" - ");
 			for(int i = 0; i < d+2; i++){
 				scanf("%c",&Texts[i]);
-			}	
+			}
+			checks = check(Text,n,Texts,d);
 		}
 	}
 	return 0;

@@ -2,7 +2,11 @@ os: linux
 language: c
 dist: xenial
 script:
-  - git ls-files src/ | xargs clang-format  && git diff --exit-code
-  - make && make test && bin/test 
+  - git ls-files build/src/ | xargs clang-format  && git diff --exit-code
+  - git ls-files build/test/ | xargs clang-format  && git diff --exit-code
+  - make
+  - make test
+  - make testing
 compiler:
 - gcc
+

@@ -1,7 +1,5 @@
 #include "en.h"
 int main() {
-	SetConsoleCP(CP_UTF8);
-    SetConsoleOutputCP(CP_UTF8);
 	char Text[20][40] = {0};
 	int d;
 	char name[] = "base.txt";

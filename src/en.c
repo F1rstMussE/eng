@@ -1,9 +1,6 @@
 #include "en.h"
 int load(char text[20][40],char name[8]){
 	FILE *fp;
-	SetConsoleCP(CP_UTF8);
-    SetConsoleOutputCP(CP_UTF8);
-
 	
 	if ((fp = fopen(name, "r")) == NULL){
     	printf("Not open File");

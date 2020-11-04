@@ -24,8 +24,8 @@ build/src/main.o: src/main.c
 
 
 build/test/en.o: src/en.c
-	gcc $(FLAG) -I thirdparty -std=c99 -c src/en.c -MMD -o build/test/en.o
+	gcc $(FLAG) -I thirdparty -I src -std=c99 -c src/en.c -MMD -o build/test/en.o
 build/test/mtest.o: test/mtest.c
-	gcc $(FLAG)    -I thirdparty  -std=c99  -c test/mtest.c -MMD  -o build/test/mtest.o
+	gcc $(FLAG)    -I thirdparty -I src -std=c99  -c test/mtest.c -MMD  -o build/test/mtest.o
 build/test/test.o: test/test.c
-	gcc $(FLAG)   -I thirdparty  -std=c99 -c test/test.c -MMD -o build/test/test.o
+	gcc $(FLAG)   -I thirdparty -I src -std=c99 -c test/test.c -MMD -o build/test/test.o

@@ -6,7 +6,7 @@ script:
   - git ls-files build/test/ | xargs clang-format  && git diff --exit-code
   - make
   - make test
-  - make testing
+  - bin/test 
 compiler:
 - gcc
 

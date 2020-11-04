@@ -1,0 +1,20 @@
+Dog-собака
+Cat-кошка
+Tomat-помидор
+Hotdog-сосиска
+Sheep-овца
+Ship-корабль
+Shop-магазин
+Computer-компьютер
+You can-ты сможешь
+How are you-как ты
+Good bie-пока
+Let's walk-пошли гулять
+Spent-тратить
+Carry-нести
+Bear-медведь
+Memory-память
+Old memory-старая память
+Love -любовь
+sweet-сладкий
+Funny-весёлый

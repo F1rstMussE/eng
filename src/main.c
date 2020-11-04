@@ -4,8 +4,8 @@ int main() {
 	int d;
 	char name[] = "base.txt";
 	char ch;
-	int n,checks,cas;
-	cas = load(Text,name);
+	int n;
+	load(Text,name);
 	
 	printf("Hello it's your assistent for learn english!\nYou need write translate words which I'm print you");
 	while(1){
@@ -33,7 +33,7 @@ int main() {
 				scanf("%c",&Texts[i]);
 			}	
 			printf("%d\n",d);
-			checks = check(Text,n,Texts,d);
+			check(Text,n,Texts,d);
 		}
 	}
 	
